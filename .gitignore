@@ -1,0 +1,37 @@
+# Gradle
+.gradle
+/build
+*/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+local.properties
+
+# Android
+.navigation/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.aab
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+ENV/
+*.sqlite3
+
+# Firebase & Secret Keys
+google-services.json
+serviceAccountKey.json
+*.pem

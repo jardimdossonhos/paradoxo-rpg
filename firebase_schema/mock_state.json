@@ -1,0 +1,40 @@
+{
+  "users": {
+    "mock_uid_001": {
+      "sessions": {
+        "mock_session_001": {
+          "turn": 1,
+          "location": "Taverna do Javali",
+          "players": {
+            "player1": {
+              "name": "Aragorn",
+              "inventory": ["Espada Curta", "Poção de Vida"]
+            },
+            "player2": {
+              "name": "Legolas",
+              "inventory": ["Arco Longo", "Flechas x20"]
+            }
+          },
+          "npcs": {
+            "npc_bartender": {
+              "name": "Garrick",
+              "status": "Vivo",
+              "relationships": {
+                "player1": "🤝 Aliado",
+                "player2": "🧊 Neutro"
+              },
+              "memory": "O bartender acabou de servir uma bebida para Aragorn."
+            }
+          },
+          "chat_history": [
+            {
+              "role": "system",
+              "text": "Vocês entram na taverna. Garrick sorri para Aragorn e acena."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
